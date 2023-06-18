@@ -1,20 +1,23 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: rgb(255,255,255);
+
 }
 
 #hint{
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin-top:  5%;
-  color: #FEF2BF;
+  color: rgb(255,255,255);
+  text-shadow: 2px 2px 5px rgb(23, 23, 23);
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  4%;
-  color: #ffed9c;
+  margin:  3%;
+  color: rgb(255,255,255);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 #bestScore{
@@ -35,34 +38,38 @@ body {
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
-  border-radius: 20%;
+  height: 250px;
+  width: 250px;
+  border: 0px solid black;
+  border-radius: 15%;
 }
 
 .game-over {
-  background-color: red;
+  background-color: rgb(255, 132, 132);
   opacity: 0.8;
 }
 
 .red {
-  background-color: red;
+  background-color: #C44D5B;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 
 .green {
-  background-color: green;
+  background-color: #5fb68a;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 
 .blue {
-  background-color: blue;
+  background-color: #5e80df;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: rgb(245,206,85);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
+  box-shadow: 0 0 20px rgb(227, 227, 227);
+  background-color: rgb(255, 255, 255);
 }
